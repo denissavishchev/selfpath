@@ -8,7 +8,7 @@ class ChoosePathScreen extends StatelessWidget {
     return Center(
       child: ElevatedButton(
           onPressed: (){},
-          child: Text('Press')
+          child: Text('Test')
       ),
     );
   }
