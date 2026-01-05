@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return EasyLocalization(
       supportedLocales: const [
-        Locale('en', 'US'),
+        Locale('en', 'GB'),
         Locale('pl', 'PL'),
         Locale('ru', 'RU'),],
       path: 'assets/translations',
-      fallbackLocale: const Locale('en', 'US'),
+      fallbackLocale: const Locale('en', 'GB'),
       child: MultiProvider(
           providers: [
             ChangeNotifierProvider<ChoosePathProvider>(create: (_) => ChoosePathProvider()),
