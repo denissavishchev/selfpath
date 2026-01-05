@@ -20,7 +20,7 @@ class LanguageWidget extends StatelessWidget {
       children: [
         Text('language'.tr(),style: kTextStyle,),
         Row(
-          spacing: 12,
+          spacing: 18,
           children: List.generate(locales.length, ((i){
             return GestureDetector(
                 onTap: () => context.setLocale(locales[i]),

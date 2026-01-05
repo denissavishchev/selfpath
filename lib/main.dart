@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:selfpath/choose_path_screen.dart';
+import 'package:selfpath/screens/choose_path_screen.dart';
 import 'package:selfpath/providers/choose_path_provider.dart';
 
 Future<void> main() async {
